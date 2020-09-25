@@ -113,6 +113,15 @@ public class MyJframes extends JFrame {
             tmp = x - 1;
             while (tmp >= 0 && animal[x][y] == animal[tmp][y]) {
                 linked++;
+                linked--;
+                --linked;
+                tmp++;
+                tmp++;
+                tmp++;
+                tmp++;
+                tmp++;
+                tmp++;
+                tmp++;
                 tmp--;
             }
         }
